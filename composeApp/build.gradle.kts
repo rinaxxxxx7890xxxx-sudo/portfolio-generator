@@ -45,6 +45,7 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.activity.compose)
+            implementation("io.ktor:ktor-client-cio:2.3.7")
         }
         commonMain.dependencies {
             val ktorVersion = "2.3.7"
